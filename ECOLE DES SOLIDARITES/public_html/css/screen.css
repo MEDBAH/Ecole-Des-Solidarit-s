@@ -14,33 +14,113 @@ body{
     height:12rem;
     width:100%;
 }
-.navigator p{
+.ecole-solidaire{
+    padding-left:4rem;
+    padding-top:2rem;
+}
+
+.ecole-solidaire p{
     color: #FFFFFF;
+    font-size:1.7rem;
+    font-family:Bold;
+    margin-top: 1rem;
+}
+.ecole-solidaire .paragraph{
+    border-bottom: 1px solid #FFFFFF; 
+    color: #FFF121;
+    display: inline-block;
+    padding-bottom:1.5rem
+
+}
+
+/*
+    
+    
+  
+    
+}
+.navigator-image img{
+    height:12rem;
+    padding:1rem;
+    position:fixed;
+    color: black;
+    margin-left: 2rem;
+}
+.navigator-image p{
+    font-size:2rem;
+}
+
+.navigator-image .title{
+    color: #FFF121;
+}
+.navigator-image div {
+    float: right;
+}
+
+@media  screen and (max-width:400px){
+    body{
+    height:100%;
+    font-size: 15px;
+   
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
+.ecole-solidaire{
+    padding-left:2rem;
+    padding-top:1rem;
+}
+
+.ecole-solidaire p{
+    color: #FFFFFF;
+    font-size:1.5rem;
+
 
 
     font-size: 2rem;
+
     margin:0;
+    font-family:miso;
+}
+.navigator{
+    background-color:#F02A2A; 
+    height:15rem;
+    width:100%;
 }
 .navigator .paragraph{
     border-bottom: 1px solid #FFFFFF;
     color: #FFF121;
     display: inline-block;
     font-size: 2rem;
+}
+.navigator-image img{
+    height:10rem;
+    padding:1rem;
+    margin-left: 2rem;
+    color: black;
 
 }
 
-.navigator-image img{
-    height:12rem;
-    padding:1rem;
-    position:fixed;
+.navigator-image p{
+    font-size:2rem;
+}
+
+.navigator-image .title{
+    color: #FFF121;
+}
+ .navigator-image p{
+        font-size:1.5rem;
+    }
 }
 .navigator-title p{
     color: white;
 
+
 }
 .navigator-title .title{
     color:#FFF121;
-}
+}*/
 
 
 
