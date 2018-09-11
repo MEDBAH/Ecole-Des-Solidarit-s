@@ -12,10 +12,18 @@ body{
     color: #FFF121;
     width:30rem;
     margin-left:3rem;
+
+
+
+    padding-bottom:2rem;
+
+    padding-top: 3.5rem;
+
+
 }
 .navigator h3{
     color: #FFFFFF;
-    padding:2rem;
+    padding:1rem;
     padding-left:3rem;
 }
 
