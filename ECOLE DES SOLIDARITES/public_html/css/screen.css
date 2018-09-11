@@ -3,6 +3,7 @@
 body{
     height:100%;
     font-size: 15px;
+    height: 100%;
 }
 [class^="col-"], [class*=" col-"], .row{
     padding: 0;
@@ -29,9 +30,9 @@ body{
 }
 
 .navigator-image img{
-        height:12rem;
-        padding:1rem;
-        position:fixed;
+    height:12rem;
+    padding:1rem;
+    position:fixed;
 }
 .navigator-title h2{
     color: white;
@@ -51,6 +52,23 @@ body{
 
 /*footer*/
 
-footer .jeunesFGTB {
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+footer ul li img {
+    height: auto;
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+footer .sirius img {
+    height: auto;
+    width: 2rem;
+    margin: 0 0.5rem;
 }
