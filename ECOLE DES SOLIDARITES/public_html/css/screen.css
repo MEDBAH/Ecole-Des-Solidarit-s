@@ -2,6 +2,7 @@
 
 body{
     font-size: 15px;
+    height: 100%;
 }
 .navigator{
     background-color:#F02A2A; 
@@ -25,9 +26,9 @@ body{
     padding-left:3rem;
 }
 .navigator-image img{
-        height:12rem;
-        padding:1rem;
-        position:fixed;
+    height:12rem;
+    padding:1rem;
+    position:fixed;
 }
 .navigator-title h2{
     color: white;
@@ -44,12 +45,23 @@ body{
 
 /*footer*/
 
-.partenaires{
-    background-color: #EBEBEB;
-    left: 0;
+
+footer {
+    position: absolute;
     bottom: 0;
-     
+    width: 90%;
 }
-.partenaires img{
-   height:2rem;
+footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+footer ul li img {
+    height: auto;
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+footer .sirius img {
+    height: auto;
+    width: 2rem;
+    margin: 0 0.5rem;
 }
