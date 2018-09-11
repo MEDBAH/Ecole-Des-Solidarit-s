@@ -5,7 +5,7 @@ body{
 }
 .navigator{
     background-color:#F02A2A; 
-    height:10rem;
+    height:12rem;
 }
 .navigator h1{
     border-bottom: 1px solid #FFFFFF;
@@ -13,12 +13,25 @@ body{
     width:30rem;
     margin-left:3rem;
     padding-bottom:2rem;
+
+    padding-top: 1rem;
+
     padding-top: 3.5rem;
+
 }
 .navigator h3{
     color: #FFFFFF;
     padding:1rem;
     padding-left:3rem;
+}
+.navigator-image img{
+        height:12rem;
+        padding:1rem;
+        position:fixed;
+}
+.navigator-title h2{
+    color: white;
+    padding-right:2rem;
 }
 
 
