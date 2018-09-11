@@ -1,33 +1,78 @@
 /*Acueil*/
 
 body{
+    height:100%;
     font-size: 15px;
+
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
 }
 .navigator{
     background-color:#F02A2A; 
-    height:10rem;
+    height:12rem;
+    width:100%;
 }
-.navigator h1{
+.navigator p{
+    color: #FFFFFF;
+
+
+    font-size: 2rem;
+    margin:0;
+}
+.navigator .paragraph{
     border-bottom: 1px solid #FFFFFF;
     color: #FFF121;
-    width:30rem;
-    margin-left:3rem;
-    padding-bottom:2rem;
-    padding-top: 3.5rem;
+    display: inline-block;
+    font-size: 2rem;
+
 }
-.navigator h3{
-    color: #FFFFFF;
+
+.navigator-image img{
+    height:12rem;
     padding:1rem;
-    padding-left:3rem;
+    position:fixed;
 }
+.navigator-title p{
+    color: white;
 
-
-
-
-
-
+}
+.navigator-title .title{
+    color:#FFF121;
+}
 
 
 
 /*footer*/
 
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+footer ul {
+    margin: 0;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+footer ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+footer .sirius {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+footer .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
