@@ -1,29 +1,33 @@
 /*Acueil*/
 
 body{
+    height:100%;
     font-size: 15px;
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
 }
 .navigator{
     background-color:#F02A2A; 
     height:12rem;
+    width:100%;
 }
-.navigator h1{
+.navigator p{
+    color: #FFFFFF;
+    padding:0;
+    padding-left:3rem;
+    font-size: 2rem;
+}
+.navigator .paragraph{
     border-bottom: 1px solid #FFFFFF;
     color: #FFF121;
-    width:30rem;
+    width:25rem;
     margin-left:3rem;
-    padding-bottom:2rem;
-
-    padding-top: 1rem;
-
-    padding-top: 3.5rem;
-
+   font-size: 2rem;
+    
 }
-.navigator h3{
-    color: #FFFFFF;
-    padding:1rem;
-    padding-left:3rem;
-}
+
 .navigator-image img{
         height:12rem;
         padding:1rem;
@@ -31,8 +35,11 @@ body{
 }
 .navigator-title h2{
     color: white;
-    padding-right:2rem;
+    padding-top:1rem;
 }
+ .navigator-title .title{
+        color:#FFF121;
+ }
 
 
 
