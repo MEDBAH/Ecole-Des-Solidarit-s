@@ -3,7 +3,7 @@
 body{
     height:100%;
     font-size: 15px;
-   
+
 }
 [class^="col-"], [class*=" col-"], .row{
     padding: 0;
@@ -16,15 +16,15 @@ body{
 }
 .navigator p{
     color: #FFFFFF;
-  
- 
+
+
     font-size: 2rem;
     margin:0;
 }
 .navigator .paragraph{
     border-bottom: 1px solid #FFFFFF;
     color: #FFF121;
-   display: inline-block;
+    display: inline-block;
     font-size: 2rem;
 
 }
@@ -36,11 +36,11 @@ body{
 }
 .navigator-title p{
     color: white;
-   
+
 }
- .navigator-title .title{
-        color:#FFF121;
- }
+.navigator-title .title{
+    color:#FFF121;
+}
 
 
 
@@ -51,6 +51,9 @@ footer {
     position: absolute;
     bottom: 0;
     width: 90%;
+}
+footer ul {
+    margin: 0;
 }
 footer ul li {
     list-style: none;
@@ -63,6 +66,7 @@ footer ul li img {
 }
 footer .sirius {
     text-align: right;
+    margin-top: 0.5rem;
 }
 footer .sirius img {
     height: auto;
