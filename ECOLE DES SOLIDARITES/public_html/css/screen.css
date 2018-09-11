@@ -44,6 +44,12 @@ body{
 
 /*footer*/
 
-footer .jeunesFGTB {
-
+.partenaires{
+    background-color: #EBEBEB;
+    left: 0;
+    bottom: 0;
+     
+}
+.partenaires img{
+   height:2rem;
 }
