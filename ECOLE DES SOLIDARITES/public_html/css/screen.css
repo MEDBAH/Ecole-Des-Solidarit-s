@@ -75,11 +75,11 @@ body{
 .ecole-solidaire p{
     color: #FFFFFF;
     font-size:1.5rem;
-=======
+
 
 
     font-size: 2rem;
->>>>>>> 02536c3a8882a806e370ab0478f286167ee3aabd
+
     margin:0;
     font-family:miso;
 }
@@ -101,7 +101,7 @@ body{
     color: black;
 
 }
-<<<<<<< HEAD
+
 .navigator-image p{
     font-size:2rem;
 }
@@ -112,29 +112,15 @@ body{
  .navigator-image p{
         font-size:1.5rem;
     }
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
+}
 .navigator-title p{
     color: white;
->>>>>>> 02536c3a8882a806e370ab0478f286167ee3aabd
+
 
 }
 .navigator-title .title{
     color:#FFF121;
-}
+}*/
 
 
 
