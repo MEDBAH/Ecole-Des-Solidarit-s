@@ -16,17 +16,17 @@ body{
 }
 .navigator p{
     color: #FFFFFF;
-    padding:0;
-    padding-left:3rem;
+  
+ 
     font-size: 2rem;
+    margin:0;
 }
 .navigator .paragraph{
     border-bottom: 1px solid #FFFFFF;
     color: #FFF121;
-    width:25rem;
-    margin-left:3rem;
-   font-size: 2rem;
-    
+   display: inline-block;
+    font-size: 2rem;
+
 }
 
 .navigator-image img{
@@ -34,9 +34,9 @@ body{
     padding:1rem;
     position:fixed;
 }
-.navigator-title h2{
+.navigator-title p{
     color: white;
-    padding-top:1rem;
+   
 }
  .navigator-title .title{
         color:#FFF121;
