@@ -1,0 +1,21 @@
+/*Acueil*/
+
+body{
+    font-size: 15px;
+}
+.navigator{
+    background-color:#F02A2A; 
+    height:10rem;
+}
+.navigator h1{
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFF121;
+    width:30rem;
+    margin-left:3rem;
+}
+.navigator h3{
+    color: #FFFFFF;
+    padding:2rem;
+    padding-left:3rem;
+}
+
