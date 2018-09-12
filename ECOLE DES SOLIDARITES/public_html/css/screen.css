@@ -137,6 +137,7 @@ footer {
 }
 footer ul {
     margin: 0;
+    line-height: normal;
 }
 footer ul li {
     list-style: none;
