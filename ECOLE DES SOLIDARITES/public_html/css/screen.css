@@ -76,7 +76,7 @@ body{
 
     body{
 
-        background-color:#F02A2A;
+       background-color:#F02A2A;
     overflow-x:no-display;
 
 }
@@ -123,14 +123,7 @@ nav{
 }
 }
 
-
-
-    
-    
-  
-    
-
-/*.navigator-image img{
+.navigator-image img{
     height:12rem;
     padding:1rem;
     position:fixed;
@@ -211,13 +204,12 @@ nav{
 }
 .navigator-title .title{
     color:#FFF121;
-}*/
-
+}
 
 
 /*footer*/
-
-
+ 
+ 
 footer {
     position: absolute;
     bottom: 0;
@@ -228,7 +220,7 @@ footer {
 }
 footer ul {
     margin: 0;
-    line-height: normal;
+    width: 100%;
 }
 footer ul li {
     list-style: none;
@@ -238,15 +230,18 @@ footer ul li img {
     height: auto;
     width: 4.5rem;
     margin: 0 0.5rem;
+    display: inline-block;
 }
 footer .sirius {
-    text-align: rig;
-    margin-top: 0.5rem;
-}
-footer .sirius img {
     height: auto;
     width: 4.5rem;
-    margin: 0 1rem;
+    margin: 0 4rem;
+    float: right;
+}
+
+#container-fluid .siruis{
+    display: none;
+    background-color: #EBEBEB;
 }
 
 
@@ -358,6 +353,9 @@ contac .sirius img {
     width: 4.5rem;
     margin: 0 1rem;
 }
+
+
+
 /*siruis*/
 
 siruis {
@@ -391,5 +389,5 @@ siruis .sirius img {
 }
 
 
-
+/*presentation*/
 
