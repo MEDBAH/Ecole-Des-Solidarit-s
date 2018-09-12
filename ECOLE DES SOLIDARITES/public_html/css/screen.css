@@ -75,10 +75,8 @@ body{
 @media only screen and (max-width: 600px){
 
     body{
-
         background-color:#F02A2A;
         overflow-x:no-display;
-
     }
     [class^="col-"], [class*=" col-"], .row{
         padding: 0;
