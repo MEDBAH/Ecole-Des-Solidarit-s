@@ -206,7 +206,8 @@ nav{
     color:#FFF121;
 }
 
-
+ 
+ 
 /*footer*/
  
  
@@ -239,12 +240,6 @@ footer .sirius {
     float: right;
 }
 
-#container-fluid .siruis{
-    display: none;
-    background-color: #EBEBEB;
-}
-
-
 
 
 
@@ -254,12 +249,13 @@ faq {
     position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: #EBEBEB;
     line-height: 7rem;
 }
 faq ul {
     margin: 0;
+    width: 100%;
 }
 faq ul li {
     list-style: none;
@@ -269,35 +265,29 @@ faq ul li img {
     height: auto;
     width: 4.5rem;
     margin: 0 0.5rem;
+    display: inline-block;
 }
 faq .sirius {
-    text-align: center;
-    margin-top: 0.5rem;
-}
-faq .sirius img {
     height: auto;
     width: 4.5rem;
-    margin: 0 1rem;
+    margin: 0 4rem;
+    float: right;
 }
-
-
-
-
 
 
 /*blog*/
 
-
-blog {
+blog{
     position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: #EBEBEB;
     line-height: 7rem;
 }
 blog ul {
     margin: 0;
+    width: 100%;
 }
 blog ul li {
     list-style: none;
@@ -307,69 +297,64 @@ blog ul li img {
     height: auto;
     width: 4.5rem;
     margin: 0 0.5rem;
+    display: inline-block;
 }
 blog .sirius {
-    text-align: center;
-    margin-top: 0.5rem;
-}
-blog .sirius img {
     height: auto;
     width: 4.5rem;
-    margin: 0 1rem;
+    margin: 0 4rem;
+    float: right;
 }
-
-
-
 
 
 /*contact*/
 
-contac {
+contact {
     position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: #EBEBEB;
     line-height: 7rem;
 }
-contac ul {
+contact ul {
     margin: 0;
+    width: 100%;
 }
-footer ul li {
+contact ul li {
     list-style: none;
     display: inline-block;
 }
-.contac ul li img {
+contact ul li img {
     height: auto;
     width: 4.5rem;
     margin: 0 0.5rem;
+    display: inline-block;
 }
-contac .sirius {
-    text-align: center;
-    margin-top: 0.5rem;
-}
-contac .sirius img {
+contact .sirius {
     height: auto;
     width: 4.5rem;
-    margin: 0 1rem;
+    margin: 0 4rem;
+    float: right;
 }
 
 
 
 /*siruis*/
 
-siruis {
+sirius {
     position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: #EBEBEB;
     line-height: 7rem;
 }
-siruis ul {
+sirius ul {
     margin: 0;
+    width: 100%;
 }
-siruis ul li {
+footer ul li {
     list-style: none;
     display: inline-block;
 }
@@ -377,17 +362,43 @@ siruis ul li img {
     height: auto;
     width: 4.5rem;
     margin: 0 0.5rem;
+    display: inline-block;
 }
-siruis .sirius {
-    text-align: center;
-    margin-top: 0.5rem;
-}
-siruis .sirius img {
+sirius .sirius {
     height: auto;
     width: 4.5rem;
-    margin: 0 1rem;
+    margin: 0 4rem;
+    float: right;
 }
 
 
 /*presentation*/
 
+presentation {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+presentation ul {
+    margin: 0;
+    width: 100%;
+}
+presentation ul li {
+    list-style: none;
+    display: inline-block;
+}
+presentation ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+presentation .sirius {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 4rem;
+    float: right;
+}
