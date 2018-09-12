@@ -124,6 +124,10 @@ nav{
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a87030ab0ebcd12a41ccd62d8f66f17a73715b25
     
     
   
@@ -221,12 +225,13 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: #EBEBEB;
     line-height: 7rem;
 }
 footer ul {
     margin: 0;
+    line-height: normal;
 }
 footer ul li {
     list-style: none;
@@ -238,7 +243,7 @@ footer ul li img {
     margin: 0 0.5rem;
 }
 footer .sirius {
-    text-align: center;
+    text-align: rig;
     margin-top: 0.5rem;
 }
 footer .sirius img {
@@ -252,3 +257,142 @@ footer .sirius img {
 
 
 /*faq*/
+
+faq {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+faq ul {
+    margin: 0;
+}
+faq ul li {
+    list-style: none;
+    display: inline-block;
+}
+faq ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+faq .sirius {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+faq .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+
+
+
+
+
+
+/*blog*/
+
+
+blog {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+blog ul {
+    margin: 0;
+}
+blog ul li {
+    list-style: none;
+    display: inline-block;
+}
+blog ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+blog .sirius {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+blog .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+
+
+
+
+
+/*contact*/
+
+contac {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+contac ul {
+    margin: 0;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+.contac ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+contac .sirius {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+contac .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+/*siruis*/
+
+siruis {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+siruis ul {
+    margin: 0;
+}
+siruis ul li {
+    list-style: none;
+    display: inline-block;
+}
+siruis ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+siruis .sirius {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+siruis .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+
+
+
+
