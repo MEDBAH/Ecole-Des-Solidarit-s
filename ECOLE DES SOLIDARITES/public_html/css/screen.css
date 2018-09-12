@@ -23,7 +23,7 @@ body{
 .ecole-solidaire p{
     color: #FFFFFF;
     font-family:cursive;
-   
+
 }
 .ecole-solidaire .paragraph {
     border-bottom: 1px solid #FFFFFF; 
@@ -50,10 +50,10 @@ body{
     color:#FFF121;
 }
 .main-menu{
-    background-color: #EBEBEB;
+    background-color:#EBEBEB;
     width:45%;
     float:right;
-    
+   border-radius:0 0 0 5rem;
 }
 .main-menu ul{
     list-style: none;
@@ -61,7 +61,7 @@ body{
     margin: 0;
 }
 .main-menu li{
-   
+
     display:inline-block;
     padding-left:4rem;
 }
@@ -70,62 +70,62 @@ body{
     text-decoration: none;
     display: inline-block;
     font-family:cursive;
-  
+
 }
 @media only screen and (max-width: 600px){
 
     body{
 
         background-color:#F02A2A;
-    overflow-x:no-display;
+        overflow-x:no-display;
 
-}
-[class^="col-"], [class*=" col-"], .row{
-    padding: 0;
-    margin: 0;
-}
-.navigator{
-    background-color:#F02A2A; 
-    height:8rem;
-    width:100%;
-}
-.ecole-solidaire{
-    margin-left:3rem;
-     margin-top:2rem;
-}
-.ecole-solidaire p{
-    color: #FFFFFF;
-    font-family:cursive;
-    font-size:1.2rem;
-}
-.ecole-solidaire .paragraph {
-    border-bottom: 1px solid #FFFFFF; 
-    color: #FFF121;
-    margin-top:2rem;
-    padding-bottom:1rem;
-    display: inline-block;
-} 
-.navigator-image img{
-    height:17rem;
-    padding:0;
-    margin-top:2rem;
+    }
+    [class^="col-"], [class*=" col-"], .row{
+        padding: 0;
+        margin: 0;
+    }
+    .navigator{
+        background-color:#F02A2A; 
+        height:8rem;
+        width:100%;
+    }
+    .ecole-solidaire{
+        margin-left:3rem;
+        margin-top:2rem;
+    }
+    .ecole-solidaire p{
+        color: #FFFFFF;
+        font-family:cursive;
+        font-size:1.2rem;
+    }
+    .ecole-solidaire .paragraph {
+        border-bottom: 1px solid #FFFFFF; 
+        color: #FFF121;
+        margin-top:2rem;
+        padding-bottom:1rem;
+        display: inline-block;
+    } 
+    .navigator-image img{
+        height:17rem;
+        padding:0;
+        margin-top:2rem;
 
-}
-.navigator-image p{
-    font-family:cursive;
-    padding:-2rem;
-    margin-top:3rem;
-    margin-left:3rem;
+    }
+    .navigator-image p{
+        font-family:cursive;
+        padding:-2rem;
+        margin-top:3rem;
+        margin-left:3rem;
 
-}
-nav{
-    display: none;
-}
+    }
+    nav{
+        display: none;
+    }
 }
 
 
 
-    
+
     
   
     
