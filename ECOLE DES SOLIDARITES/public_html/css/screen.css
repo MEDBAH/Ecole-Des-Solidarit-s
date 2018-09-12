@@ -13,6 +13,9 @@ body{
     height:12rem;
     width:100%;
 }
+.navigator i{
+    display: none;
+}
 .ecole-solidaire{
     padding-left:4rem;
     padding-top:1rem;
@@ -47,9 +50,7 @@ body{
 .navigator-image .title{
     color:#FFF121;
 }
-.navigator-image i{
-    display: none;
-}
+
 .main-menu{
     background-color:#EBEBEB;
     width:45%;
@@ -75,7 +76,6 @@ body{
     font-family:miso;
 
 }
-
 @media only screen and (max-width: 600px){
 
     [class^="col-"], [class*=" col-"], .row{
@@ -84,38 +84,35 @@ body{
     }
     .navigator{
         background-color:#F02A2A; 
-        height:20rem;
+        height:12rem;
         width:100%;
     }
     .ecole-solidaire{
-       text-align:center;
-        margin-top:0;
+        margin-left:3rem;
+        margin-top:2rem;
     }
     .ecole-solidaire p{
         color: #FFFFFF;
+        font-family:cursive;
         font-size:1.2rem;
     }
     .ecole-solidaire .paragraph {
         border-bottom: 2px solid #FFFFFF; 
         color: #FFF121;
+        margin-top:-1rem;
         display: inline-block;
     } 
     .navigator-image img{
-        height:7rem;
+        height:17rem;
         padding:0;
-        text-align:center;
-       
+        margin-top:2rem;
+
     }
     .navigator-image p{
-        
+        font-family:cursive;
         padding:-2rem;
-       
+        margin-top:3rem;
         margin-left:3rem;
-    }
-    .navigator-image i{
-        display:block;
-        font-size: 2rem;
-        padding-left:25rem;
 
     }
     nav{
