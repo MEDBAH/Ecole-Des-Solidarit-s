@@ -123,6 +123,11 @@ body{
     }
     footer .sirius {
         border-top: 1px solid #707070;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
     }
 }
 
@@ -139,9 +144,11 @@ footer {
 }
 footer ul {
     margin: 0;
+    padding: 0;
     width: 100%;
 }
 footer ul li {
+    padding-left: 1rem;
     list-style: none;
     display: inline-block;
 }
@@ -157,7 +164,16 @@ footer .sirius {
     margin: 0 4rem;
     float: right;
 }
-
+@media only screen and (max-width: 767px) {
+    footer .sirius {
+        border-top: 1px solid #707070;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
+}
 
 
 
@@ -181,11 +197,3 @@ footer .sirius {
 
 
 /*presentation*/
-
-.logo {
-    position: absolute;
-    top: 14rem;
-    width: 500px;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-}
