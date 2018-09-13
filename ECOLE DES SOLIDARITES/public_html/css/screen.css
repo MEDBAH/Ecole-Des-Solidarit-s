@@ -181,11 +181,3 @@ footer .sirius {
 
 
 /*presentation*/
-
-.logo {
-    position: absolute;
-    top: 14rem;
-    width: 500px;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-}
