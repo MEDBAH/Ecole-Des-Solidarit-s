@@ -270,21 +270,21 @@ footer {
     background-color: #EBEBEB;
     line-height: 7rem;
 }
-footer ul {
+contenu-link-footer ul {
     margin: 0;
     width: 100%;
 }
-footer ul li {
+contenu-link-footer ul li {
     list-style: none;
     display: inline-block;
 }
-footer ul li img {
+contenu-link-footer ul li img {
     height: auto;
     width: 4.5rem;
     margin: 0 0.5rem;
     display: inline-block;
 }
-footer .sirius {
+contenu-link-footer .sirius {
     height: auto;
     width: 4.5rem;
     margin: 0 4rem;
