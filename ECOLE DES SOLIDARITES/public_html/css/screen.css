@@ -26,7 +26,7 @@ body{
 .ecole-solidaire p{
     color: #FFFFFF;
     font-family:cursive;
-   
+
 }
 .ecole-solidaire .paragraph {
     border-bottom: 1px solid #FFFFFF; 
@@ -59,7 +59,7 @@ body{
     background-color: #EBEBEB;
     width:45%;
     float:right;
-    
+
 }
 .main-menu ul{
     list-style: none;
@@ -67,7 +67,7 @@ body{
     margin: 0;
 }
 .main-menu li{
-   
+
     display:inline-block;
     padding-left:4rem;
 }
@@ -76,7 +76,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-family:cursive;
-  
+
 }
 @media only screen and (max-width: 600px){
 
@@ -118,150 +118,22 @@ body{
         margin-left:3rem;
 
     }
-    nav{
+    .main-menu nav{
         display: none;
     }
-}
-
-
-    body{
-
-
-       background-color:#F02A2A;
-    overflow-x:no-display;
-
-}
-[class^="col-"], [class*=" col-"], .row{
-    padding: 0;
-    margin: 0;
-}
-.navigator{
-    background-color:#F02A2A; 
-    height:8rem;
-    width:100%;
-}
-.ecole-solidaire{
-    margin-left:3rem;
-     margin-top:2rem;
-}
-.ecole-solidaire p{
-    color: #FFFFFF;
-    font-family:cursive;
-    font-size:1.2rem;
-}
-.ecole-solidaire .paragraph {
-    border-bottom: 1px solid #FFFFFF; 
-    color: #FFF121;
-    margin-top:2rem;
-    padding-bottom:1rem;
-    display: inline-block;
-} 
-.navigator-image img{
-    height:17rem;
-    padding:0;
-    margin-top:2rem;
-
-}
-.navigator-image p{
-    font-family:cursive;
-    padding:-2rem;
-    margin-top:3rem;
-    margin-left:3rem;
-
-}
-nav{
-    display: none;
-}
-}
-
-.navigator-image img{
-    height:12rem;
-    padding:1rem;
-    position:fixed;
-    color: black;
-    margin-left: 2rem;
-}
-.navigator-image p{
-    font-size:2rem;
-}
-
-.navigator-image .title{
-    color: #FFF121;
-}
-.navigator-image div {
-    float: right;
-}
-
-@media  screen and (max-width:400px){
-    body{
-    height:100%;
-    font-size: 15px;
-   
-}
-[class^="col-"], [class*=" col-"], .row{
-    padding: 0;
-    margin: 0;
-}
-.ecole-solidaire{
-    padding-left:2rem;
-    padding-top:1rem;
-}
-
-.ecole-solidaire p{
-    color: #FFFFFF;
-    font-size:1.5rem;
-
-
-
-    font-size: 2rem;
-
-    margin:0;
-    font-family:miso;
-}
-.navigator{
-    background-color:#F02A2A; 
-    height:15rem;
-    width:100%;
-}
-.navigator .paragraph{
-    border-bottom: 1px solid #FFFFFF;
-    color: #FFF121;
-    display: inline-block;
-    font-size: 2rem;
-}
-.navigator-image img{
-    height:10rem;
-    padding:1rem;
-    margin-left: 2rem;
-    color: black;
-
-}
-
-.navigator-image p{
-    font-size:2rem;
-}
-
-.navigator-image .title{
-    color: #FFF121;
-}
- .navigator-image p{
-        font-size:1.5rem;
+    footer .sirius {
+        border-top: 1px solid #707070;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
     }
 }
-.navigator-title p{
-    color: white;
 
-
-}
-.navigator-title .title{
-    color:#FFF121;
-}
-
- 
- 
 /*footer*/
- 
- 
+
+
 footer {
     position: absolute;
     bottom: 0;
@@ -272,9 +144,15 @@ footer {
 }
 contenu-link-footer ul {
     margin: 0;
+    padding: 0;
     width: 100%;
 }
+<<<<<<< HEAD
 contenu-link-footer ul li {
+=======
+footer ul li {
+    padding-left: 1rem;
+>>>>>>> 24d893defbe6e8fb03343a2c4198c632eaf6d0ca
     list-style: none;
     display: inline-block;
 }
@@ -290,166 +168,36 @@ contenu-link-footer .sirius {
     margin: 0 4rem;
     float: right;
 }
-
+@media only screen and (max-width: 767px) {
+    footer .sirius {
+        border-top: 1px solid #707070;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
+}
 
 
 
 /*faq*/
 
-faq {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: left;
-    background-color: #EBEBEB;
-    line-height: 7rem;
-}
-faq ul {
-    margin: 0;
-    width: 100%;
-}
-faq ul li {
-    list-style: none;
-    display: inline-block;
-}
-faq ul li img {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 0.5rem;
-    display: inline-block;
-}
-faq .sirius {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 4rem;
-    float: right;
-}
 
 
 /*blog*/
 
-blog{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: left;
-    background-color: #EBEBEB;
-    line-height: 7rem;
-}
-blog ul {
-    margin: 0;
-    width: 100%;
-}
-blog ul li {
-    list-style: none;
-    display: inline-block;
-}
-blog ul li img {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 0.5rem;
-    display: inline-block;
-}
-blog .sirius {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 4rem;
-    float: right;
-}
+
 
 
 /*contact*/
 
-contact {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: left;
-    background-color: #EBEBEB;
-    line-height: 7rem;
-}
-contact ul {
-    margin: 0;
-    width: 100%;
-}
-contact ul li {
-    list-style: none;
-    display: inline-block;
-}
-contact ul li img {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 0.5rem;
-    display: inline-block;
-}
-contact .sirius {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 4rem;
-    float: right;
-}
 
 
 
 /*siruis*/
 
-sirius {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: left;
-    background-color: #EBEBEB;
-    line-height: 7rem;
-}
-sirius ul {
-    margin: 0;
-    width: 100%;
-}
-footer ul li {
-    list-style: none;
-    display: inline-block;
-}
-siruis ul li img {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 0.5rem;
-    display: inline-block;
-}
-sirius .sirius {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 4rem;
-    float: right;
-}
+
 
 
 /*presentation*/
-
-presentation {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: left;
-    background-color: #EBEBEB;
-    line-height: 7rem;
-}
-presentation ul {
-    margin: 0;
-    width: 100%;
-}
-presentation ul li {
-    list-style: none;
-    display: inline-block;
-}
-presentation ul li img {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 0.5rem;
-    display: inline-block;
-}
-presentation .sirius {
-    height: auto;
-    width: 4.5rem;
-    margin: 0 4rem;
-    float: right;
-}
