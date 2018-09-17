@@ -16,22 +16,6 @@ body{
     padding: 0;
     margin: 0;
 }
-
-/** header **/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** fin header **/
 .header{
     background-color:#F02A2A;
     color: #ffffff;
@@ -117,11 +101,8 @@ body{
 .left{
     float: right;
 }
-
-/*footer*/
-
-
 footer {
+
     width: 100%;
     text-align: left;
     background-color: #EBEBEB;
@@ -149,7 +130,75 @@ footer .sirius {
     margin: 0 4rem;
     float: right;
 }
-@media only screen and (max-width: 767px) {
+
+
+
+
+
+
+
+
+@media only screen and (max-width:770px){
+
+    .fa-bars{
+        font-size:2rem;
+        display: inline-block;
+        color: black;
+        position: fixed;
+        padding:1rem;
+        cursor: pointer;
+        z-index: 1000;
+
+    }
+    .container-fluid .navigator{
+        font-size:1rem;
+        padding-left:4rem;
+    }
+   
+    .container-fluid .navigator .ecole-solidaire{
+        padding-top:0;
+    }
+    .container-fluid .navigator .para1{
+        border-bottom: 1px solid #FFFFFF; 
+        color: #FFF121;
+        display: inline-block;
+        padding-bottom:0rem;
+       font-family:miso-bold;
+       font-size: 1.8rem;
+
+    }
+    .container-fluid .navigator .para2{
+        padding-bottom:1rem;
+        font-size:1.1rem;
+        font-family:miso-regular;
+        font-size: 1.3rem;
+      
+    }
+    .container-fluid img{
+        height:8rem;
+    }
+    .flex .savoir{
+        padding: 1rem;
+        padding-right: 0;
+        font-family: miso-bold;
+        font-size:1rem;
+    }
+    .menu{
+        display: none;
+    }
+    .menu li{
+
+        list-style: none;
+        padding:1rem;
+        margin: 0;
+        background-color:#EBEBEB;
+        border: 0px solid;
+        border-radius:0 0 0 5rem;
+    }
+    .menu li a{
+        color:#F02A2A;
+        display:none;
+    }
     footer .sirius {
         border-top: 1px solid #707070;
         height: auto;
@@ -159,97 +208,3 @@ footer .sirius {
         text-align: center;
     }
 }
-
-
-
-/*faq*/
-
-
-.search-bar {
-    position: relative;
-    display: inline-block;
-    margin: 1.8rem 2rem;
-    margin-left: 7rem;
-    width: 20rem;
-    vertical-align: top;
-}
-.search-bar input {
-    color: #F02A2A;
-    outline: none;
-    border: 1px solid #707070;
-    /*    font-family: a copier de Nathalie importante;*/
-    font-weight: bold;
-    width: 100%;
-    padding-right: 1.5rem;
-    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.16);
-    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.16);
-    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.16);
-}
-.search-bar ::placeholder {
-    color: #F02A2A;
-}
-.search-bar .search-icon {
-    position: absolute;
-    top: 6px;
-    right: 5px;
-    cursor: pointer;
-    color: #F02A2A;
-    z-index: 1;
-}
-.questions-frequentes {
-    display: inline-block;
-    padding: 1rem 2rem;
-    padding-left: 4rem;
-}
-.questions-frequentes .title {
-    color: #F02A2A;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    /*    font-family: a copier de Nathalie importante;*/
-    position: relative;
-}
-.questions-frequentes .question {
-    display: block;
-    color: #F02A2A;
-    font-size: 1rem;
-    font-weight: 600;
-    /*    font-family: a copier de Nathalie importante;*/
-    position: relative;
-    margin-left: 7rem;
-    margin-bottom: 1.5rem;
-}
-.questions-frequentes a:hover {
-    text-decoration: none;
-}
-.questions-frequentes .question:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 8.5px 0 8.5px;
-    border-color: #fff021 transparent transparent transparent;
-    top: 40%;
-    left: 0;
-    margin-left: -1.5rem;
-}
-
-
-
-/*blog*/
-
-
-
-
-/*contact*/
-
-
-
-
-/*siruis*/
-
-
-
-
-/*presentation*/
