@@ -318,6 +318,7 @@ p.equipe {
     color: #F02A2A;
     font-size: 1.3rem;
     font-weight: 600;
+    font-family: miso-bold;
 }
 .equipe-container {
     width: 100%;
@@ -359,4 +360,5 @@ p.equipe {
 }
 .equipe-container .profile .prenom {
     color: #F02A2A;
+    font-family: miso-regular;
 }
