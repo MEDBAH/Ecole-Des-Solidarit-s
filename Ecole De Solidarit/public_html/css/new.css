@@ -1,9 +1,5 @@
 /*Acueil*/
 /*Version PC*/
-body{
-    height:100%;
-    font-size: 15px;
-}
 @font-face {
     font-family: miso-bold;
     src: url(../police/miso/miso-bold.ttf);
@@ -12,6 +8,11 @@ body{
     font-family: miso-regular;
     src: url(../police/miso/miso-regular.ttf);
 }
+body{
+    height:100%;
+    font-size: 15px;
+}
+
 [class^="col-"], [class*=" col-"], .row{
     padding: 0;
     margin: 0;
