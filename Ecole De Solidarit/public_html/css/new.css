@@ -1,0 +1,309 @@
+/*Acueil*/
+/*Version PC*/
+body{
+    height:100%;
+    font-size: 15px;
+}
+@font-face {
+    font-family: miso-bold;
+    src: url(../police/miso/miso-bold.ttf);
+}
+@font-face {
+    font-family: miso-regular;
+    src: url(../police/miso/miso-regular.ttf);
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color:#F02A2A;
+    color: #ffffff;
+    padding:5px;
+}
+.mobile-icon {
+    display: none;
+}
+.container-fluid .navigator{
+    font-size:1.5rem;
+    padding-left:5rem;
+}
+.container-fluid .navigator .ecole-solidaire{
+    padding-top:2rem;
+}
+.container-fluid .navigator .para1{
+    border-bottom: 1px solid #FFFFFF; 
+    color: #FFF121;
+    display: inline-block;
+    padding-bottom:0rem;
+    font-family: miso-bold;
+    font-size: 3.9rem;
+
+}
+.container-fluid .navigator .para2{
+    padding-bottom:1rem;
+    font-size: 2.4rem;
+    font-family:miso-regular;
+}
+.container-fluid img{
+    height:15rem;
+    padding-left: 6rem;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.flex .savoir{
+    padding:3rem;
+    padding-right: 0;
+    font-family: miso-bold;
+    font-size:2rem;
+    padding-bottom:0;
+}
+
+.container-fluid .pouvoir{
+    color: #FFF121;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul{
+    list-style: none;
+    padding:1rem;
+    margin: 0;
+    background-color:#EBEBEB;
+    border: 0px solid;
+    border-radius:0 0 0 5rem;
+
+}
+.menu li{
+    display: inline-block; 
+    padding-left: 2rem;
+}
+
+.left ul:first-child{
+    padding-left: 5rem;
+}
+.left ul:last-child{
+    padding-right: 5rem;
+}
+.menu a{
+    color:#F02A2A;
+}
+.left{
+    float: right;
+}
+.content p {
+    padding: 1rem 1.5rem;
+    text-align: justify;
+}
+footer {
+
+    width: 100%;
+    text-align: left;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+footer ul li {
+    padding-left: 1rem;
+    list-style: none;
+    display: inline-block;
+}
+footer ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+footer .sirius {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 4rem;
+    float: right;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:770px){
+    .mobile-icon {
+        display: block;
+        font-size: 2rem;
+        padding: 1rem;
+        position: fixed;
+        color: black;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    .menu {
+        position: fixed;
+        top: 10%;
+        left: 13%;
+        background-color: white;
+        z-index: 1000;
+        display: none;
+    }
+    .menu .sticky-menu {
+        background-color: #FFF121;
+    }
+    .menu li{
+
+        display:block;
+        padding-left: 0;
+    }
+    .menu a {
+        display: block;
+        padding: 0.5rem 1rem;
+        color: #F02A2A;
+    }
+    .menu a:hover {
+        background-color: #F02A2A;
+        color: #F02A2A;
+        text-decoration: none;
+    }
+    .left {
+        float: none;
+    }
+    .left ul:last-child {
+        padding-right: 0;
+    }
+    .left ul:first-child {
+        padding-left: 0;
+    }
+    .menu ul{
+        padding:0;
+        margin: 0;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+
+    }
+    .container-fluid .navigator{
+        font-size:1rem;
+        padding-left:4rem;
+    }
+
+    .container-fluid .navigator .ecole-solidaire{
+        padding-top:0;
+    }
+    .container-fluid .navigator .para1{
+        border-bottom: 1px solid #FFFFFF; 
+        color: #FFF121;
+        display: inline-block;
+        padding-bottom:0rem;
+        font-family:miso-bold;
+        font-size: 1.8rem;
+
+    }
+    .container-fluid .navigator .para2{
+        padding-bottom:1rem;
+        font-size:1.1rem;
+        font-family:miso-regular;
+        font-size: 1.3rem;
+
+    }
+    .container-fluid img{
+        height:8rem;
+    }
+    .flex .savoir{
+        padding: 1rem;
+        padding-right: 0;
+        font-family: miso-bold;
+        font-size:1rem;
+    }
+    footer .sirius {
+        border-top: 1px solid #707070;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+/*faq*/
+.search-bar {
+    position: relative;
+    display: inline-block;
+    margin: 1.8rem 2rem;
+    margin-left: 7rem;
+    width: 20rem;
+    vertical-align: top;
+}
+.search-bar input {
+    color: #F02A2A;
+    outline: none;
+    border: 1px solid #707070;
+    /*    font-family: a copier de Nathalie importante;*/
+    font-weight: bold;
+    width: 100%;
+    padding-right: 1.5rem;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.16);
+}
+.search-bar ::placeholder {
+    color: #F02A2A;
+}
+.search-bar .search-icon {
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    cursor: pointer;
+    color: #F02A2A;
+    z-index: 1;
+}
+.questions-frequentes {
+    display: inline-block;
+    padding: 1rem 2rem;
+    padding-left: 4rem;
+}
+.questions-frequentes .title {
+    color: #F02A2A;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    /*    font-family: a copier de Nathalie importante;*/
+    position: relative;
+}
+.questions-frequentes .question {
+    display: block;
+    color: #F02A2A;
+    font-size: 1rem;
+    font-weight: 600;
+    /*    font-family: a copier de Nathalie importante;*/
+    position: relative;
+    margin-left: 7rem;
+    margin-bottom: 1.5rem;
+}
+.questions-frequentes a:hover {
+    text-decoration: none;
+}
+.questions-frequentes .question:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 8.5px 0 8.5px;
+    border-color: #fff021 transparent transparent transparent;
+    top: 40%;
+    left: 0;
+    margin-left: -1.5rem;
+}
