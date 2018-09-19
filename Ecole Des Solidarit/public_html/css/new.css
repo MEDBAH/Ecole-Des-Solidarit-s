@@ -16,28 +16,12 @@ body{
     padding: 0;
     margin: 0;
 }
-
-/** header **/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** fin header **/
 .header{
     background-color:#F02A2A;
     color: #ffffff;
     padding:5px;
 }
-.fa-bars{
+.mobile-icon {
     display: none;
 }
 .container-fluid .navigator{
@@ -80,13 +64,6 @@ body{
 .container-fluid .pouvoir{
     color: #FFF121;
 }
-.container{
-
-    width:100%;
-    margin-right: 0px;
-    padding-right: 0px;
-
-}
 .menu{
     display: flex;
     justify-content: flex-end;
@@ -117,43 +94,133 @@ body{
 .left{
     float: right;
 }
-
-/*footer*/
-
-
+.content p {
+    padding: 1rem 1.5rem;
+    text-align: justify;
+}
 footer {
+
     width: 100%;
     text-align: left;
     background-color: #EBEBEB;
     line-height: 7rem;
 }
-contenu-link-footer ul {
+footer ul {
     margin: 0;
     padding: 0;
     width: 100%;
 }
-<<<<<<< HEAD
-contenu-link-footer ul li {
-=======
 footer ul li {
     padding-left: 1rem;
->>>>>>> 24d893defbe6e8fb03343a2c4198c632eaf6d0ca
     list-style: none;
     display: inline-block;
 }
-contenu-link-footer ul li img {
+footer ul li img {
     height: auto;
     width: 4.5rem;
     margin: 0 0.5rem;
     display: inline-block;
 }
-contenu-link-footer .sirius {
+footer .sirius {
     height: auto;
     width: 4.5rem;
     margin: 0 4rem;
     float: right;
 }
-@media only screen and (max-width: 767px) {
+
+
+
+
+
+
+
+
+@media only screen and (max-width:770px){
+    .mobile-icon {
+        display: block;
+        font-size: 2rem;
+        padding: 1rem;
+        position: fixed;
+        color: black;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    .menu {
+        position: fixed;
+        top: 10%;
+        left: 13%;
+        background-color: white;
+        z-index: 1000;
+        display: none;
+    }
+    .menu .sticky-menu {
+        background-color: #FFF121;
+    }
+    .menu li{
+
+        display:block;
+        padding-left: 0;
+    }
+    .menu a {
+        display: block;
+        padding: 0.5rem 1rem;
+        color: #F02A2A;
+    }
+    .menu a:hover {
+        background-color: #F02A2A;
+        color: #F02A2A;
+        text-decoration: none;
+    }
+    .left {
+        float: none;
+    }
+    .left ul:last-child {
+        padding-right: 0;
+    }
+    .left ul:first-child {
+        padding-left: 0;
+    }
+    .menu ul{
+        padding:0;
+        margin: 0;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+
+    }
+    .container-fluid .navigator{
+        font-size:1rem;
+        padding-left:4rem;
+    }
+
+    .container-fluid .navigator .ecole-solidaire{
+        padding-top:0;
+    }
+    .container-fluid .navigator .para1{
+        border-bottom: 1px solid #FFFFFF; 
+        color: #FFF121;
+        display: inline-block;
+        padding-bottom:0rem;
+        font-family:miso-bold;
+        font-size: 1.8rem;
+
+    }
+    .container-fluid .navigator .para2{
+        padding-bottom:1rem;
+        font-size:1.1rem;
+        font-family:miso-regular;
+        font-size: 1.3rem;
+
+    }
+    .container-fluid img{
+        height:8rem;
+    }
+    .flex .savoir{
+        padding: 1rem;
+        padding-right: 0;
+        font-family: miso-bold;
+        font-size:1rem;
+    }
     footer .sirius {
         border-top: 1px solid #707070;
         height: auto;
@@ -166,9 +233,11 @@ contenu-link-footer .sirius {
 
 
 
+
+
+
+
 /*faq*/
-
-
 .search-bar {
     position: relative;
     display: inline-block;
@@ -238,22 +307,3 @@ contenu-link-footer .sirius {
     left: 0;
     margin-left: -1.5rem;
 }
-
-
-
-/*blog*/
-
-
-
-
-/*contact*/
-
-
-
-
-/*siruis*/
-
-
-
-
-/*presentation*/
